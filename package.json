@@ -1,0 +1,31 @@
+{
+  "name": "ampath-devops",
+  "version": "1.0.0",
+  "description": "Ampath developer operations",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMPATH/ampath-devops.git"
+  },
+  "keywords": [
+    "devops",
+    "ampath",
+    "nomad"
+  ],
+  "author": "ampath-devs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AMPATH/ampath-devops/issues"
+  },
+  "homepage": "https://github.com/AMPATH/ampath-devops#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.5",
+    "dotenv": "^10.0.0",
+    "nginx-conf": "^2.0.0",
+    "base-64": "^1.0.0",
+    "node-fetch": "^2.6.1"
+  }
+}
